@@ -1,14 +1,12 @@
-name: Hello Word !
+name: Hello World!  # Corrected name
 on: 
   push:
     branches:
       - main
+
 jobs:
-  Hello_world_job:
-jobs:
-  Hello_world_jobs:
-    run-on: self-hosted
+  hello_world_job:  # Changed to a single job entry
+    runs-on: self-hosted  # Fixed typo 'run-on' to 'runs-on'
     steps:
-      - name: say Hello
-        run : |
-          echo "Hello world!!!"
+      - name: Say Hello  # Improved step name capitalization
+        run: echo "Hello world!!!"  # Fixed indentation and removed unnecessary pipe '|'
