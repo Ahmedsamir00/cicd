@@ -8,5 +8,5 @@ jobs:
   hello_world_job:  # Changed to a single job entry
     runs-on: self-hosted  # Fixed typo 'run-on' to 'runs-on'
     steps:
-      - name: Say Hello  # Improved step name capitalization
-        run: echo "Hello world!!!"  # Fixed indentation and removed unnecessary pipe '|'
+      - name: Say ciao  # Improved step name capitalization
+        run: echo "Hello world!!!"  
