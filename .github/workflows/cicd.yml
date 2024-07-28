@@ -9,4 +9,4 @@ jobs:
     runs-on: self-hosted  # Fixed typo 'run-on' to 'runs-on'
     steps:
       - name: Say ciao  # Improved step name capitalization
-        run: echo "Hello world!!!"  
+        run: echo "Hello!!!"  
